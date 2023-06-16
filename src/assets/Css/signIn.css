@@ -1,4 +1,3 @@
-
 .main-cont {
   height: 100vh;
 }
@@ -26,15 +25,14 @@
   color: #3d3d3d;
   font-weight: 600;
   font-size: 18px;
-
 }
-@media screen and (min-width: 320px)and (max-width:768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .field-in .header {
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-}
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .sign-in-inp {
@@ -92,7 +90,6 @@
   height: 53px;
   background-color: #3c3c3c;
   color: white;
-  /* font-family: "bold"; */
 }
 
 .footer-sec {
@@ -100,7 +97,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 20px; */
   gap: 30px;
 }
 
@@ -123,6 +119,11 @@
   transform: rotateZ(180deg);
   min-width: 100px;
 }
+@media screen and (max-width: 400px) {
+  .footer-sec .border-cont .border-div {
+    min-width: 50px;
+  }
+}
 
 .img-main {
   display: flex;
@@ -130,18 +131,13 @@
   align-items: center;
   height: 100vh;
 }
-@media screen and (min-width: 320px)and (max-width:768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .img-main {
-   display: none;
+    display: none;
+  }
 }
-}
-/* .a[type="checkbox"]:checked {
-  background-color: #4CAF50 !important;
-  border-color: #4CAF50;
-} */
 
 .dashBoardSec {
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
